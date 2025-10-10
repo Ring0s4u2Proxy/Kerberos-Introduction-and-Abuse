@@ -14,5 +14,5 @@ The Ticket Granting Ticket (TGT):
 How does a principal access a service using Kerberos authentication? 
 	-First a request needs to be made from the TGS (Ticket Granting Server), then the Ticket Granting Ticket (TGT) is sent to the KDC.
 
-What information inside of the PAC or Privileged Attribute Certificate?
+What information is inside of the PAC or Privileged Attribute Certificate?
 The PAC includes information about the principal, such as their RID, domain group membership, user SID, group SIDS, a checksum which verifies that the PAC hasn’t been tampered with, and more. It basically contains the information pertaining to what the principal can do. 
