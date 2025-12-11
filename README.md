@@ -1,3 +1,5 @@
+*NOTE: This is unfinished, sorry! I'm working on more interesting stuff right now. 
+
 First, one must understand the inner workings of Kerberos before diving into the abuse primitives. Kerberos works on a system of tickets, where principals, users and computers, are authenticated by a central, trusted server (The Key Distribution Center, and its sub components. The server permits the principals to access services without having to provide their password with each use. Kerberos relies on shared-secret cryptography to establish a trust relation with clients, because it assumes that there is no transport encryption on the networks. It also assumes that packets can be read/modified/replayed.
 
 The Key Distribution Center (KDC) And Its Subcomponents: 
